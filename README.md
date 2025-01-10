@@ -30,9 +30,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/clipboard-landing-page-XPqsDhdHK5
   
-- Live Site URL: https://alaa-mekibes.github.io/huddle-landing-page-with-alternating-feature-blocks-frontend-mentor
+- Live Site URL: https://alaa-mekibes.github.io/clipboard-landing-page-frontend-mentor
 
 ## My process
 
