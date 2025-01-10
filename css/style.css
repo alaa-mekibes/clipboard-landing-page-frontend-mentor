@@ -130,6 +130,7 @@
 /* Start Header */
 .header_container {
     height: 100vh;
+    height: 100svh;
     background-image: url(../images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,6 +165,9 @@
     }
 }
 /* Start main */
+.app_info .intro {
+    padding-top: 0
+}
 .app_info_container {
     padding: var(--Padding-M);
 }
