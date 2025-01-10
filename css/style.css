@@ -129,8 +129,6 @@
 }
 /* Start Header */
 .header_container {
-    height: 100vh;
-    height: 100svh;
     background-image: url(../images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,6 +138,8 @@
     align-items: center;
     text-align: center;
     padding: var(--Padding-M);
+    padding-top: 5.875rem;
+    margin-bottom: 10rem;
 }
 .header_container .logo {
     margin-bottom: 4rem
