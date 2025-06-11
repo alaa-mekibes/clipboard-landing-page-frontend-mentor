@@ -14,12 +14,13 @@
 * {
     margin: 0;
 }
-  
+html{scroll-behavior: smooth}
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: "Bai Jamjuree", serif;
     background-color: var(--White);
+    min-height: 100vh
 }
   
 img, picture, video, canvas, svg {
