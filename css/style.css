@@ -56,14 +56,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .intro {
     padding: var(--Padding-M);
-    padding-bloc-end: 4rem;
-    padding-bloc-start: 5rem;
+    padding-block-end: 4rem;
+    padding-block-start: 5rem;
     text-align: center;
 }
 .intro h3 {
     font-size: 1.75rem;
     text-wrap: auto;
-    margin-bottom: 1rem
+    margin-block-end: 1rem
 }
 .intro p {
     line-height: 1.8
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .click a:first-child {
     background-color: var(--Strong-Cyan);
-    box-shadow: 0px 2px 0px 1px hsl(171, 81%, 28%);;
+    box-shadow: 0px 2px 0px 1px hsl(171, 81%, 28%);
 }
 .click a:last-child {
     background-color: var(--Light-Blue);
@@ -110,26 +110,26 @@ h1, h2, h3, h4, h5, h6 {
     margin-bloc-end: 10rem;
 }
 .header_container .logo {
-    margin-bloc-end: 4rem
+    margin-block-end: 4rem
 }
 .header_container h1 {
     font-size: 2rem;
     line-height: 1.2;
-    margin-bloc-end: 1rem
+    margin-block-end: 1rem
 }
 .header_container p {
-    margin-bloc-end: 2rem
+    margin-block-end: 2rem
 }
 /* Start main */
 .app_info .intro {
-    padding-top: 0
+    padding-block-start: 0
 }
 .app_info_container {
     padding: var(--Padding-M);
 }
 .app_info_container img {
     margin: 0 auto;
-    margin-bottom: 4rem
+    margin-block-end: 4rem
 }
 .app_info_container .content {
     display: flex;
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .app_info_container .content .box h3 {
     font-size: 1.5rem;
-    margin-bloc-end: 1rem
+    margin-block-end: 1rem
 }
 .devices img {
     margin: 0 auto
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .workflow .content .box h3 {
     font-size: 1.5rem;
-    margin-bottom: 1rem
+    margin-block-end: 1rem
 }
 .logos {
     display: flex;
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     gap: 4rem;
     padding: var(--Padding-M);
-    padding-bloc-start: 7rem;
+    padding-block-start: 7rem;
 }
 .App_download {
     display: flex;
@@ -178,20 +178,20 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     text-align: center;
     padding: var(--Padding-M);
-    padding-bloc-start: 7rem;
+    padding-block-start: 7rem;
 }
 .App_download h2 {
     text-wrap: auto;
     font-size: 1.75rem;
-    margin-bloc-end: 1rem;
+    margin-block-end: 1rem;
 }
 .App_download p {
-    margin-bloc-end: 2rem
+    margin-block-end: 2rem
 }
 /* Footer */
 .footer_container {
     padding: 3rem 4rem;
-    margin-bloc-start: 7rem;
+    margin-block-start: 7rem;
     background-color: #F5F6F8;
     display: flex;
     flex-direction: column;
@@ -234,14 +234,14 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 68.75rem) {
     .intro {
         padding: 0;
-        padding-bloc-end: 4rem;
-        padding-bloc-start: 5rem;
+        padding-block-end: 4rem;
+        padding-block-start: 5rem;
         text-align: center;
     }
     .intro h3 {
         font-size: 2rem;
         text-wrap: auto;
-        margin-bottom: 1rem
+        margin-block-end: 1rem
     }
     .intro p {
         line-height: 1.8;
@@ -274,8 +274,8 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0;
     }
     .app_info_container img {
-        margin-bloc-end: 0;
-        margin-left: -2rem;
+        margin-block-end: 0;
+        margin-inline-start: -2rem;
     }
     .app_info_container .content {
         justify-content: center;
@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 55%
     }
     .app_info_container .content .box h3 {
-        margin-bottom: .5rem
+        margin-block-end: .5rem
     }
     .app_info_container .content .box p {
         line-height: 1.8
@@ -309,21 +309,21 @@ h1, h2, h3, h4, h5, h6 {
     }
     .workflow .content .box h3 {
         font-size: 1.5rem;
-        margin-bottom: 1rem
+        margin-block-end: 1rem
     }
     .logos {
         flex-direction: row;
         justify-content: space-between;
         gap: 4rem;
         padding: 0;
-        padding-bloc-start: 7rem;
+        padding-block-start: 7rem;
         margin: 0 12rem;
         flex-wrap: wrap;
     }
     .App_download h2 {
         font-size: 2rem;
         text-wrap: auto;
-        margin-bloc-end: 1rem
+        margin-block-end: 1rem
     }
     .App_download p {
         font-size: var(--FontSize);
