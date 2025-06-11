@@ -106,8 +106,8 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     text-align: center;
     padding: var(--Padding-M);
-    padding-bloc-start: 5.875rem;
-    margin-bloc-end: 10rem;
+    padding-block-start: 5.875rem;
+    margin-block-end: 10rem;
 }
 .header_container .logo {
     margin-block-end: 4rem
